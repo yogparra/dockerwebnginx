@@ -1,0 +1,18 @@
+<head>
+        <script src="src/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="src/botchat.js" type="text/javascript"></script>
+        <link href="src/botchat.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="bot" />
+    <script language="JavaScript" type="text/javascript">
+        BotChat.App({
+            directLine: { secret: 'Z66LkEE0quY.cwA.2SI.7XN5A-wwS_lh40u7eFqCj6XnFkd1htgL8TtzL6aC76s' },
+			user: { id: 'Usuario' },
+            bot: { id: 'Asistente' },			
+            locale: 'es',
+            resize: 'detect'
+        }, document.getElementById("bot"));
+    </script>
+</body>
+</html>

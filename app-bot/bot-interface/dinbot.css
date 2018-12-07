@@ -1,0 +1,114 @@
+#idinbot {
+    position: absolute !important;
+    z-index: 10000 !important;
+}
+
+#idinbot #chat-bot {
+    bottom: 0px !important;    
+    height: 450px ;
+    max-height: 450px ;
+    width: 400px !important;
+    position: fixed;
+    padding-right: 0%;
+    right: 0 !important;    
+}
+
+.izquierda{
+    right: 100 !important;    
+    left: 0 !important;    
+}
+
+.derecha{
+    right: 0 !important;    
+    left: 100 !important;    
+}
+
+#idinbot .wrapper-bot{
+    max-height: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 400px;     
+    border-style: solid;
+    border-width: thin;  
+}
+#idinbot .title-bot {
+    font-family: "AvenirLTStd-Heavy", sans-serif;
+    font-size: 20px;
+    background-image: url(src/barra-minvu.png);
+    background-repeat: round;
+    margin: 0;    
+    padding:15px;
+    text-align: left;
+    color: #0078d7;
+    box-sizing: content-box;
+    padding-left: 45px;
+    line-height: 1em;
+}
+#idinbot .switch-icons-bot {
+    background-image: url(src/boton-cerrar.png);
+    position: absolute;
+    right: 0;
+    top: 0px; 
+    z-index: 1; 
+    width: 45px;
+    height: 50px;
+    vertical-align: middle;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+#idinbot .icons-bot {
+    background-image: url(src/robot.png);
+    background-repeat: no-repeat; 
+    position: absolute;
+    right: 0;
+    top: -48px; 
+    z-index: 1; 
+    width: 87px;
+    height: 84px;
+    vertical-align: middle;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    /* position: absolute;
+    left: 0;
+    top: -48px;
+    width: 87px;
+    height: 84px; */
+}
+#idinbot .switch-icons-bot-min {
+    background-image: url(src/minimizado.png);
+    position: absolute;
+    right: 0;
+    top: -120px; 
+    z-index: 999; 
+    width: 150px;
+    height: 120px;
+    vertical-align: middle;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#idinbot .icons-bot-min {
+    background-image: url(minimizado.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 87px;
+    height: 84px;
+}
+#idinbot .content-bot{
+    border:1px solid #ccc;
+    height:400px;
+    background-color: #ffffff;
+}
+#idinbot #help{
+    font-family: "AvenirLTStd-Heavy", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    width: 120px;
+    position: absolute;
+    top: -118px;
+    right: 20px;
+    text-align: center;
+    z-index: 1000;
+}
