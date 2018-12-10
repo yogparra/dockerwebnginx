@@ -5,6 +5,13 @@
     vue create app-bot    
 
 ```
+
+# Ejecucion
+```
+ Eliminar carpeta dist
+ >npm run buil
+```
+
 # Docker ejecución
 ```
 docker build -t app-node .
